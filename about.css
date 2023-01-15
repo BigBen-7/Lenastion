@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Petrona", serif;
+}
+.about-header {
+  background-image: url(./images/cam-bg3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+  box-shadow: inset 0px -26px 70px -8px rgba(0, 0, 0, 0.58);
+  /* position: relative; */
+}
+.about-inner-header {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.about-head h1 {
+  text-transform: uppercase;
+  color: #0b0b49;
+  font-size: 8rem;
+  letter-spacing: 15px;
+  font-family: "Petrona", serif;
+  opacity: 0.7;
+}
+.about-Q {
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #0b0b49;
+  text-transform: capitalize;
+}
+.about-details p {
+  text-align: center;
+  margin: 1.3rem;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.more-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto 2rem;
+  padding: 1.3rem;
+  position: relative;
+}
+.about-img img {
+  height: 100%;
+  border-radius: 20px;
+}
+#mordy1 img {
+  width: 600px;
+}
+
+.about-content p {
+  text-align: left;
+  color: #0b0b49;
+  padding: 2rem;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+#ceo {
+  font-size: 18px;
+  margin: 20px;
+  text-align: center;
+}
+#name {
+  text-align: end;
+  font-weight: 500;
+}
+
+.mini-gallery-heading p {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: 1.8rem;
+  padding-left: 2rem;
+  word-spacing: 5px;
+  letter-spacing: 4px;
+  text-transform: capitalize;
+}
+.newsletter {
+  margin: 5rem;
+}
+.newsletter-heading h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #0b0b49;
+  margin: 1.3rem;
+}
+.newsletter-heading p {
+  text-align: center;
+  padding: 1.1rem;
+  font-size: 18px;
+  line-height: 25px;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+input {
+  width: 200px;
+  height: 30px;
+  margin: 1.8rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border-left: 2px solid #0b0b49;
+  border-right: 2px solid #0b0b49;
+}
+
+legend {
+  margin: 2rem;
+}
